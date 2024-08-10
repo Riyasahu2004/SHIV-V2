@@ -66,20 +66,7 @@ InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
-        ],
-        [
-InlineKeyboardButton(
-                text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌 📢", url=f"https://t.me/Dns_Official_Channel"
-            ),
-            InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url=f"https://t.me/Dns_Official_Channel"
-           ),
-        ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="𝖢𝗅𝗈𝗌𝖾")],
-    ]
-
-    return buttons
-
+        ]
 
 def stream_markup(_, videoid, chat_id):
     buttons = [
